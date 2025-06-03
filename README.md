@@ -25,3 +25,13 @@ Install all with:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## ▶️ Run the Project
+
+Once the virtual environment is activated and dependencies are installed, start the motion synth app with:
+
+```bash
+python3 motion_synth.py
+
