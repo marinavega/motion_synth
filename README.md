@@ -25,6 +25,7 @@ Install all with:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -34,4 +35,4 @@ Once the virtual environment is activated and dependencies are installed, start 
 
 ```bash
 python3 motion_synth.py
-
+```
