@@ -1,24 +1,4 @@
-import cv2
-import numpy as np
-import sounddevice as sd
-import threading
-import time
 
-SAMPLE_RATE = 44100
-BASE_FREQ = 110
-MAX_FREQ = 1760
-MIN_VOLUME = 0.05
-MAX_VOLUME = 1.0
-MOTION_THRESHOLD = 4000
-SMOOTHING = 0.7
-
-audio_state = {
-    "frequency": 440.0,
-    "volume": 0.2,
-"""
-Motion Synth - Webcam-controlled synthesizer
-Uses hand motion to control pitch, volume, and effects in real-time.
-"""
 import cv2
 import numpy as np
 import sounddevice as sd
