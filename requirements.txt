@@ -1,3 +1,10 @@
-opencv-python-headless
-numpy
-sounddevice
+opencv-python-headless>=4.5.0
+numpy>=1.19.0
+sounddevice>=0.4.0
+
+# dev dependencies
+pytest>=6.0.0
+pytest-cov>=2.10.0
+black>=21.0.0
+flake8>=3.9.0
+mypy>=0.910
